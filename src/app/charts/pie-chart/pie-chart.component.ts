@@ -9,9 +9,9 @@ export class PieChartComponent implements OnInit {
 
 
   // Doughnut
-  public doughnutChartLabels: string[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-  public doughnutChartData: number[] = [35, 450, 100];
-  public doughnutChartType = 'doughnut'; // pie
+  public doughnutChartLabels: string[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales', 'Coatch'];
+  public doughnutChartData: number[] = [35, 450, 100, 50];
+  public doughnutChartType = 'doughnut'; // also works pie
   chartOptions = { responsive: true };
 
   constructor() { }
