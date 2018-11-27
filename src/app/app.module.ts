@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { ChartsModule } from 'ng2-charts';
 import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
 import { DynamicChartComponent } from './charts/dynamic-chart/dynamic-chart.component';
+import { GrayChartComponent } from './charts/gray-chart/gray-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PieChartComponent,
-    DynamicChartComponent
+    DynamicChartComponent,
+    GrayChartComponent
   ],
   imports: [
     BrowserModule,
